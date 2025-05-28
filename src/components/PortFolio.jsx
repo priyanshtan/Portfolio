@@ -2,6 +2,7 @@ import React from "react";
 import rent from "../../public/rent.png";
 import express from "../../public/express.png";
 import logo from "../../public/logo.png";
+import weather from "../../public/weather.jpg"
 
 function PortFolio() {
   const cardItem = [
@@ -11,7 +12,7 @@ function PortFolio() {
       name: "Car Rental System",
       link: "https://github.com/priyanshtan/Car_Rental_System.git",
       description:
-        "Developed a mini project: a comprehensive car rental management system in Java, utilizing object-oriented programming principles for robust and maintainable code. The system covers customer management, vehicle tracking, and reservations."
+        "Developed a mini project: a comprehensive car rental management system in Java, utilizing object-oriented programming principles for robust and maintainable code. The system covers customer management, vehicle tracking, and reservations.",
     },
     {
       id: 3,
@@ -19,7 +20,7 @@ function PortFolio() {
       name: "myStore",
       link: "https://github.com/priyanshtan/e-Commerce.git",
       description:
-        "Developed a full-stack E-Commerce Website using Node.js, Express, MongoDB, and React. The project features user authentication, CRUD operations, and dynamic content rendering. Node.js and Express handle the backend, providing RESTful APIs, while MongoDB stores user data and application state. The React frontend offers a responsive, interactive user interface."
+        "Developed a fully functional full-stack E-Commerce website using the MERN stack — MongoDB, Express.js, React, and Node.js. Implemented secure user authentication and authorization using JWT and bcrypt, enabling user registration, login, and role-based access. Designed and integrated RESTful APIs with Express and Node.js to handle product listings, cart management, order processing, and payment workflows. Utilized MongoDB to store and manage user data, product details, and order history with efficient schema design. The React-based frontend delivers a responsive, dynamic shopping experience with real-time updates, product filtering, and client-side routing using React Router. Emphasized performance optimization, clean UI design, and seamless frontend-backend integration to provide a smooth and scalable user experience..",
     },
     {
       id: 2,
@@ -27,7 +28,15 @@ function PortFolio() {
       name: "College Management System",
       link: "",
       description:
-        "Currently working on a full-stack college management system using Node.js, Express, MongoDB, and Vue.js. The system includes student records, course registrations, attendance, and faculty management, along with a payment gateway integration. Node.js and Express handle the backend with RESTful APIs, while MongoDB securely stores academic data. The Vue.js frontend offers a responsive and interactive user interface. This project demonstrates expertise in modern web development, ensuring efficient data handling, a seamless user experience, and maintainable code."
+        "Currently working on a full-stack college management system using Node.js, Express, MongoDB, and Vue.js. The system includes student records, course registrations, attendance, and faculty management, along with a payment gateway integration. Node.js and Express handle the backend with RESTful APIs, while MongoDB securely stores academic data. The Vue.js frontend offers a responsive and interactive user interface. This project demonstrates expertise in modern web development, ensuring efficient data handling, a seamless user experience, and maintainable code.",
+    },
+    {
+      id: 4,
+      logo: weather,
+      name: "Weather App",
+      link: "https://github.com/priyanshtan/WeatherApp.git",
+      description:
+        "Created a responsive and user-friendly weather application using HTML, CSS, and JavaScript, which fetches real-time weather data from the OpenWeatherMap API. The app displays current temperature, humidity, wind speed, and weather conditions based on user location or searched city. Implemented asynchronous JavaScript with fetch API for smooth data handling and used dynamic DOM manipulation to update UI elements. The application features error handling for invalid inputs and network issues, mobile-first responsive design, and intuitive icons to visually represent weather conditions. Designed with clean and modern UI principles to ensure a seamless user experience across devices..",
     },
   ];
 

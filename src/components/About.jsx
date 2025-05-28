@@ -30,7 +30,7 @@ function About() {
           <li>
             I have completed my Bachelor's of Technology(Computer Science) from
             Dr. APJ Abdul Kalam Technical University in the year 2024 and scored
-            7.1 CGPA.
+            7.33 CGPA and passed with First Divison.
           </li>
         </ul>
         <br />
@@ -40,10 +40,10 @@ function About() {
         <span>
           Languages: Java, JavaScript.
           <br />
-          Technologies: VueJS, NodeJS, Express, MongoDB, ReactJS, HTML,
-          Bootstrap.
+          Technologies: NodeJS, Express, MongoDB, ReactJS, HTML,
+          Bootstrap, Tailwind.
           <br />
-          Developer Tools: VS Code, Eclipse IDE.
+          Developer Tools: VS Code, Eclipse IDE, Postman, Git, GitHub.
           <br />
           Database: MongoDB.
           <br />
